@@ -10,3 +10,7 @@
     text-align: center;
 
 }
+
+.floating_text {
+    grid-column: span 3;
+}
