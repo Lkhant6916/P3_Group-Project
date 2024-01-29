@@ -1,1 +1,12 @@
-body {}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+}
+.header {
+    font-size: 32px;
+    font-family: 'Arial Narrow';
+    font-weight: normal;
+    color: red;
+    text-align: center;
+
+}
