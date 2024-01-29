@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1000px 1fr;
 }
-.header>h4 {
+.header h4 {
     font-size: 32px;
     font-family: 'Arial Narrow';
     font-weight: normal;
