@@ -1,22 +1,63 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1000px 1fr;
-
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
 }
 
 .heading {
-    font-size: 32px;
-    font-family: 'Arial Narrow';
-    font-weight: normal;
-    color: red;
-    text-align: center;
-    align-items: center;
+  font-size: 32px;
+  font-family: "Arial Narrow";
+  font-weight: normal;
+  color: red;
+  text-align: center;
+  grid-column: span 3;
 }
 
 .time {
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .floating_text {
-    grid-column: span 3;
+  font-size: 24px;
+  grid-column: span 3;
+}
+
+.menu a {
+    display: block;
+}
+
+
+.description {
+  grid-column: span 3;
+}
+.description h6 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.address {
+  font-size: 14px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.video {
+  grid-column: span 3;
+}
+
+.members {
+   margin-left:auto;
+   margin-right: 0;
+}
+
+
+.acknowledgement {
+    margin-top: 20px;
+    grid-column: span 5;
+    text-align: center;
 }
