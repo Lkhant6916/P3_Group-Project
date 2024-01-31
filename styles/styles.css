@@ -55,11 +55,13 @@ body {
 
 .video {
   grid-column: span 3;
-
+  grid-row: span 2;
   display: flex;
   justify-content: center;
 }
-
+.school-fees {
+  grid-row: span 2;
+}
 .acknowledgement {
   margin-top: 20px;
   grid-column: span 5;
