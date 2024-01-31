@@ -1,8 +1,17 @@
+body {
+  background-image: url("../images/background.gif");
+  background-repeat: repeat;
+  padding: 100px;
+}
+
 .container {
-  padding: 50px;
+  padding: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  
+  grid-template-columns: auto auto auto auto auto;
+  background-color: white;
+}
+.container div {
+  padding: 10px;
 }
 
 .heading {
@@ -12,29 +21,30 @@
   color: red;
   text-align: center;
   grid-column: span 3;
+  padding: 0;
+  margin-bottom: -10px;
 }
 
 .time {
   display: flex;
   align-items: center;
-  justify-content: end;
 }
 
 .floating_text {
   font-size: 24px;
   grid-column: span 3;
+  margin-top: -20px;
 }
 
 .menu a {
-    display: block;
+  display: block;
 }
-
 
 .description {
   grid-column: span 3;
 }
 .description h6 {
-  font-size: 28px;
+  font-size: 26px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -42,22 +52,20 @@
 .address {
   font-size: 14px;
   margin-top: 20px;
-  display: flex;
-  justify-content: end;
 }
 
 .video {
   grid-column: span 3;
+  display: flex;
+  justify-content: center;
 }
-
-.members {
-   margin-left:auto;
-   margin-right: 0;
-}
-
 
 .acknowledgement {
-    margin-top: 20px;
-    grid-column: span 5;
-    text-align: center;
+  margin-top: 20px;
+  grid-column: span 5;
+  text-align: center;
+}
+
+.floating_text {
+  background-color: azure;
 }
