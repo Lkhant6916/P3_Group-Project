@@ -51,11 +51,11 @@ body {
 
 .address {
   font-size: 14px;
-  margin-top: 20px;
 }
 
 .video {
   grid-column: span 3;
+
   display: flex;
   justify-content: center;
 }
