@@ -68,36 +68,22 @@
 
       <!--School Fees-->
       <div class="school-fees">
-        <label for="school-fees">School Fees: </label>
+        <label for="school-fees">School Fees:(in SGD)</label>
         <input type="text" id="school-fees" name="school-fees" /><br /><br />
 
         <label for="currency">Please select your payment currency:</label
         ><br /><br />
-        <input
-          type="radio"
-          id="myanmarKyat"
-          name="currency"
-          value="myanmarKyat"
-        />
-        <label for="myanmarKyat">Myanmar Kyat</label><br />
-        <input type="radio" id="usDollar" name="currency" value="usDollar" />
-        <label for="usDollar">US Dollar</label><br />
-        <input
-          type="radio"
-          id="chineseYuan"
-          name="currency"
-          value="chineseYuan"
-        />
-        <label for="chineseYuan">Chinese Yuan</label><br />
-        <input
-          type="radio"
-          id="malaysianRinggit"
-          name="currency"
-          value="malaysianRinggit"
-        />
-        <label for="malaysianRinggit">Malaysian Ringgit</label><br /><br />
+        <input type="radio" id="myanmarKyat" name="currency" value="MMK" />
+        <label for="myanmarKyat">Myanmar Kyat (MMK)</label><br />
+        <input type="radio" id="usDollar" name="currency" value="USD" />
+        <label for="usDollar">US Dollar (USD)</label><br />
+        <input type="radio" id="chineseYuan" name="currency" value="CNY" />
+        <label for="chineseYuan">Chinese Yuan (CNY)</label><br />
+        <input type="radio" id="malaysianRinggit" name="currency" value="MYR" />
+        <label for="malaysianRinggit">Malaysian Ringgit (MYR)</label
+        ><br /><br />
 
-        <button>Calculate</button>&nbsp;&nbsp;
+        <button onclick="calculate()">Calculate</button>&nbsp;&nbsp;
         <p id="ans" style="display: inline">Answer</p>
       </div>
 
@@ -139,5 +125,6 @@
     </div>
     <script src="scripts/time.js"></script>
     <script src="scripts/clock.js"></script>
+    <script src="scripts/currency.js"></script>
   </body>
 </html>
