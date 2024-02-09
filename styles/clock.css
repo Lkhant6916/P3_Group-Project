@@ -1,67 +1,65 @@
 .clock {
-    margin: 0 auto;
-    grid-row: span 2;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  margin: auto auto;
+  grid-row: span 2;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .clock label {
-    position: absolute;
-    text-align: center;
-    inset: 1px;
-    transform: rotate(calc(var(--i) * (360deg/12)));
+  position: absolute;
+  text-align: center;
+  inset: 1px;
+  transform: rotate(calc(var(--i) * (360deg / 12)));
 }
 
 .clock label span {
-    display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-    transform: rotate(calc(var(--i) * (-360deg/12)));
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  transform: rotate(calc(var(--i) * (-360deg / 12)));
 }
-.hand{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.hand {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-#hour i{
-    position: absolute;
-    background-color: black;
-    width: 3px;
-    height: 28px;
-    border-radius: 8px;
+#hour i {
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 28px;
+  border-radius: 8px;
 }
-#min i{
-    position: absolute;
-    background-color: black;
-    width: 2px;
-    height: 35px;
-    border-radius: 8px;
+#min i {
+  position: absolute;
+  background-color: black;
+  width: 2px;
+  height: 40px;
+  border-radius: 8px;
 }
-#sec i{
-    position: absolute;
-    background-color: red;
-    width: 1px;
-    height: 35px;
-    border-radius: 8px;
+#sec i {
+  position: absolute;
+  background-color: red;
+  width: 1px;
+  height: 40px;
+  border-radius: 8px;
 }
 .point {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.point i{
-    position: absolute;
-    background-color: black;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    
+.point i {
+  position: absolute;
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
- 
