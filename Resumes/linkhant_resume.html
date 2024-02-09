@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>212DEA1 Lin Khant Resume</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+      body {
+        background: #00b6c4;
+      }
+      .container {
+        background: #f5f5f5;
+        max-width: 800px;
+        margin: 60px auto;
+        height: 1250px;
+        padding: 20px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+      }
+      .header {
+        text-align: center;
+      }
+      .header h1 {
+        margin-bottom: 10px;
+      }
+      .header h3 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      .img-area {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 25px auto;
+        border: 15px groove deepskyblue;
+      }
+      .img-area img {
+        width: 100%;
+      }
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .left {
+        flex: 1;
+        padding: 30px;
+      }
+      .left p {
+        line-height: 2;
+      }
+      .left ul li {
+        line-height: 2;
+      }
+      h2 {
+        background: #00b6c4;
+        padding: 15px;
+        color: #fff;
+        margin: 30px 0;
+        font-size: 20px;
+        border-radius: 0 50px 50px 0;
+      }
+      .right {
+        flex: 1;
+        padding: 30px;
+      }
+      .right h3 {
+        margin-bottom: 15px;
+      }
+      .right p {
+        line-height: 2.9;
+      }
+      .right ul li {
+        line-height: 2;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .container {
+          width: 95%;
+          height: auto;
+        }
+        h2 {
+          font-size: 18px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .main {
+          flex-direction: column;
+        }
+        .left,
+        .right {
+          flex: none;
+          width: 100%;
+        }
+        .container {
+          width: 95%;
+          height: auto;
+        }
+        h2 {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+          <img src="LKphoto.jpg" alt="Profile Photo" />
+        </div>
+        <h1>Lin Khant</h1>
+        <h3>Front-end Web Developer and BIM Specialist</h3>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <h2>Personal Information</h2>
+          <p><strong>Name:</strong> Lin Khant</p>
+          <p><strong>Age:</strong> 22</p>
+          <p><strong>Email:</strong> Lin_Khant_6916@bcaa.edu.sg</p>
+          <p><strong>Phone:</strong> 000 000 0000</p>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Revit</li>
+            <li>Archicad</li>
+            <li>Autocad</li>
+          </ul>
+          <h2>Education</h2>
+          <h3>Diploma in Digital Engineering</h3>
+          <p>BCA Academy, 2021-2024</p>
+          <br />
+        </div>
+
+        <div class="right">
+          <h2>Work Experience</h2>
+          <h3>XYZ Company</h3>
+          <p><strong>Position:</strong> BIM modeller</p>
+          <p><strong>Duration:</strong> 2024-2026</p>
+          <ul>
+            <li>
+              Led the development of detailed 3D models for Changi Airport
+            </li>
+            <li>
+              Collaborated with architects, engineers, and contractors to
+              resolve clashes
+            </li>
+            <li>
+              Conducted training sessions for team members to enhance
+              proficiency in BIM software applications
+            </li>
+          </ul>
+          <br />
+          <h3>ABC Company</h3>
+          <p><strong>Position:</strong> Web Developer</p>
+          <p><strong>Duration:</strong> 2026-2028</p>
+          <ul>
+            <li>
+              Created and maintained websites using HTML, CSS, and JavaScript
+            </li>
+            <li>
+              Optimized website performance and user experience using best
+              practices
+            </li>
+            <li>
+              Worked with clients to understand their needs and deliver custom
+              solutions
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
