@@ -84,6 +84,9 @@ body {
   grid-row: span 2;
   padding: 0;
 }
+.video video {
+  width: 100%;
+}
 .school-fees {
   grid-row: span 2;
 }
