@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.1);
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #f1f1f1;
+}
+
+.grid-item:nth-child(-n+3) {
+  background-color: #555;
+  font-weight: bold;
+  color: #ff6347;
+}
+
+h1 {
+  text-align: center;
+  color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h1>Swan Arr Win Htet's Resume</h1>
+
+<div class="container">
+  <div class="grid-item">Name</div>
+  <div class="grid-item">Swan Arr Win Htet</div>
+  <div class="grid-item"><img src="SAWH_Photo.jpg" alt="Description of the image" width="150" height="200"></div>
+  <div class="grid-item">Contact</div>
+  <div class="grid-item">swanarr105@gmail.com</div>
+  <div class="grid-item">96144088</div>
+  <div class="grid-item">Education</div>
+  <div class="grid-item">Diploma in Digital Engineering</div>
+  <div class="grid-item">BCA Academy</div>
+  <div class="grid-item">Skills</div>
+  <div class="grid-item">HTML, CSS, JavaScript</div>
+  <div class="grid-item">English and Japanese</div>
+  <div class="grid-item">Experience</div>
+  <div class="grid-item">Software Developer at Home</div>
+  <div class="grid-item">22 years</div>
+</div>
+
+</body>
+</html>
